@@ -292,6 +292,8 @@ define(function(require){
 			var t = $(this),
 			hover = t.find('.hover');
 
+			_equalHeight(t.find('.height-child'), t);
+
 			hover.stop().animate({ 
 				top : '0px'
 			}, 300);
@@ -320,6 +322,8 @@ define(function(require){
 			}
 			else
 			{
+				_equalHeight(t.find('.height-child'), t);
+				
 				hover.stop().animate({ 
 					top : '0px'
 				}, 300, function(){
