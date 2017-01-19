@@ -1,7 +1,7 @@
 <div class="row no-padding row-cases hide-768">
 <?php foreach ($data_cases as $k => $v): ?>
 	<div class="col-cases">
-		<div class="case-box height-parent <?php echo getClassCases(); ?>">
+		<div class="case-box height-parent ani-child-hover <?php //echo getClassCases(); ?>">
 			<figure>
 				<img src="<?php echo $v['image']; ?>" alt="<?php echo $v['name']; ?>">
 			</figure>

@@ -4,7 +4,7 @@
 			<?php foreach ($data_cases as $k => $v): ?>
 			<div class="slick-cases-item">
 				<div class="col-cases">
-					<div class="case-box height-parent <?php echo getClassCases(); ?>">
+					<div class="case-box height-parent ani-child-click <?php //echo getClassCases(); ?>">
 						<figure>
 							<img src="<?php echo $v['image']; ?>" alt="<?php echo $v['name']; ?>">
 						</figure>
