@@ -293,6 +293,7 @@ define(function(require){
 			hover = t.find('.hover');
 
 			_equalHeight(t.find('.height-child'), t);
+			_verticalCenter(t.find('.center-child'), t.find('.center-parent'));
 
 			hover.stop().animate({ 
 				top : '0px'
@@ -323,7 +324,8 @@ define(function(require){
 			else
 			{
 				_equalHeight(t.find('.height-child'), t);
-				
+				_verticalCenter(t.find('.center-child'), t.find('.center-parent'));
+
 				hover.stop().animate({ 
 					top : '0px'
 				}, 300, function(){
