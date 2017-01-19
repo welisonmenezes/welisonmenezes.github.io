@@ -1,0 +1,153 @@
+.sct-bg{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-color: transparent;
+}
+
+.sct-main{
+	width: 100%;
+	overflow-x: hidden;
+	
+	&.opened{
+		.sct-header{
+			.i-menu, .top-logo{
+				display: none;
+			}
+		}
+	}
+}
+
+.sct-menu{
+	/*background: #202b4f;*/
+	background: #2d3c6c;
+	width: 30%;
+	position: fixed;
+	top: 0;
+	left: -31%;
+	z-index: 999;
+	overflow-y: auto;
+	
+}
+
+.sct-header{
+	background: transparent;
+	width: 100%;
+	height: 86px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 998;
+
+	@include wm-transition(background, 0.3s);
+
+	&.scrolled{
+		background: #202b4f;
+		height: 65px;
+
+		.header-content{
+			padding-top: 15px;
+		}
+	}
+}
+
+.sct-body{
+	margin-left: 0;
+	width: 100%;
+}
+
+.sct-banner{
+	background-color: #202b4f;
+	background-image: url(../img/bgs/banner.jpg);
+	position: relative;
+
+	> .container{
+		position: relative;
+		text-align: center;
+	}
+}
+
+.sct-about{
+	background: #fff;
+
+	> .container{
+		text-align: center;
+		padding-top: 140px;
+		padding-bottom: 130px;
+	}
+	.text-about{
+		max-width: 880px;
+		margin: 0 auto;
+
+		.text{
+			padding: 0 60px;
+		}
+	}
+}
+
+.sct-skills{
+	position: relative;
+	background-color: #95b2de;
+	background-image: url(../img/bgs/skill-bg.jpg);
+	text-align: center;
+
+	> .container{
+		position: relative;
+	}
+	.title-main{
+		color: #fff;
+		margin-bottom: 90px;
+
+		> span{
+			background: transparent;
+		}
+	}
+}
+
+.sct-testimonials{
+	position: relative;
+	background: #202b4f;
+	text-align: center;
+
+	> .container{
+		position: relative;
+	}
+	.title-main{
+		background-image: url(../img/r-title-blue.gif);
+		margin-bottom: 90px;
+		color: #fff;
+		font-size: 26px;
+		line-height: 26px;
+
+		> span{
+			background: #202b4f;
+		}
+	}
+	.testimony-box{
+		max-width: 620px;
+		margin: 0 auto;
+	}
+}
+
+.sct-cases{
+	position: relative;
+
+	> .container{
+		position: relative;
+		width: 100%;
+		padding: 90px 0;
+	}
+	.title-main{
+		margin-bottom: 100px;
+	}
+	.row-cases{
+		background: #eeeeee;
+	}
+}
+
+.sct-footer{
+	border-top: 10px solid #9fb7df;
+	background: #202b4f;
+	padding: 120px 0 180px 0;
+	text-align: center;
+}

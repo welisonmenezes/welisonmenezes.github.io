@@ -1,0 +1,99 @@
+.title-main{
+	color: #202b4f;
+	font-size: 28px;
+	line-height: 28px;
+	text-transform: uppercase;
+	font-family: 'FuturaStdLight';
+	text-align: center;
+	max-width: 880px;
+	margin: 0 auto;
+	
+	> span{
+		background: #fff;
+		padding: 0 15px;
+		display: inline-block;
+		*display: inline;
+	}
+
+	&.with-line{
+		background: url(../img/r-title-white.gif) repeat-x center center;
+	}
+}
+
+
+.text-banner{
+	h1{
+		font-size: 78px;
+		line-height: 80px;
+		margin-bottom: 5px;
+		text-transform: uppercase;
+	}
+	h2{
+		font-family: 'FuturaStdBold';
+		font-style: italic;
+		font-size: 26px;
+		line-height: 28px;
+		color: #feef64;
+		margin-bottom: 50px;
+		letter-spacing: 1px;
+	}
+	.action{
+		.btn-default{
+			width: 100%;
+			max-width: 430px;
+		}
+	}
+}
+
+.text-about{
+	.title-main{
+		margin-bottom: 52px;
+	}
+	figure{
+		margin-bottom: 55px;
+	}
+	p{
+		font-size: 18px;
+		color: #8f8f8f;
+		font-style: italic;
+		margin-bottom: 15px;
+
+		a{
+			color: #8f8f8f;
+			text-decoration: underline;
+			font-family: 'FuturaStdBold';
+		}
+		strong{
+			font-family: 'FuturaStdBold';
+		}
+
+		&.last{
+			margin-bottom: 0;
+		}
+	}
+}
+
+.text-cases{
+	text-align: center;
+
+	h2{
+		color: #fff;
+		font-family: 'FuturaStdBold';
+		font-size: 18px;
+		text-transform: uppercase;
+		margin-bottom: 5px;
+	}
+	p{
+		font-size: 12px;
+		color: #feee64;
+	}
+	.action{
+		padding-top: 20px;
+
+		.btn{
+			display: block;
+			width: 80%;
+			margin: 0 auto;
+		}
+	}
+}

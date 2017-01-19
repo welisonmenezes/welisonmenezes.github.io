@@ -1,0 +1,103 @@
+html, body{
+	&.no-scroll{
+		overflow: hidden;
+	}
+}
+
+.asteristico{
+	vertical-align: top;
+}
+
+.hide{
+	display: none;
+}
+
+.clear{
+	clear: both;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+.float-none{
+	float: none;
+}
+
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+}
+.text-justify{
+	text-align: justify;
+}
+.text-bold{
+
+}
+.text-light{
+
+}
+.text-upper{
+	text-transform: uppercase;
+}
+.no-wrap{
+	white-space: nowrap;
+}
+
+.inline-block{
+	display: inline-block;
+	*display: inline;
+}
+.display-block{
+	display: block;
+}
+.orange{
+	color: #fc543c;
+}
+
+@for $i from 1 through 10 {
+	.b-margin-#{$i}0{
+		margin-bottom: #{$i}0px;
+	}
+}
+
+
+.ul-horizontal{
+	> li{
+		display: inline-block;
+		*display: inline;
+		vertical-align: top;
+	}
+}
+
+.row{
+	&.no-padding{
+		margin-right: 0;
+		margin-left: 0;
+
+		> div{
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}
+
+.container-fluid{
+	max-width: 1300px;
+}
+
+.no-relative{
+	position: static !important;
+}
+
+.container{
+	&.max-1090{
+		max-width: 1090px;
+	}
+}

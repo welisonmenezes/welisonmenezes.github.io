@@ -1,0 +1,82 @@
+.btn{
+	cursor: pointer;
+	display: inline-block;
+	*display: inline;
+	text-align: center;
+	background-color: transparent;
+}
+
+.btn-default{
+	height: 78px;
+	line-height: 78px;
+	border: solid 2px #fff;
+	padding: 0 64px;
+	color: #fff;
+	font-size: 22px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+	@include wm-transition(all, 0.3s);
+
+	&:hover, &:active{
+		background-color: #2e3d6e;
+		border-color: #feee64;
+		color: #feee64;
+
+		.icon{
+			background-position: sprite-position($icons, a-link-yellow);
+			@include sprite-dimensions($icons, a-link-yellow);
+		}
+	}
+
+	&.small{
+		height: 38px;
+		line-height: 38px;
+		font-size: 14px;
+		padding: 0 10px;
+		border-width: 1px;
+
+		.icon{
+			display: inline-block;
+			*display: inline;
+		}
+	}
+}
+
+.btn-prev{
+	&:hover,&:active{
+		background-position: sprite-position($icons, a-light-blue-l);
+		@include sprite-dimensions($icons, a-light-blue-l);
+	}
+}
+.btn-next{
+	&:hover,&:active{
+		background-position: sprite-position($icons, a-light-blue-r);
+		@include sprite-dimensions($icons, a-light-blue-r);
+	}
+}
+
+.btn-arrow{
+	display: inline-block;
+	*display: inline;
+	width: 20px;
+	height: 20px;
+	background: #202b4f;
+	position: relative;
+
+	&.prev, &.next{
+		margin: 0 3px;
+
+		.icon{
+			position: absolute;
+			top: 5px;
+			left: 7px;
+		}
+	}
+	&.prev{}
+	&.next{}
+
+	&:hover, &:active{
+		background: #2d3c6c;
+	}
+}

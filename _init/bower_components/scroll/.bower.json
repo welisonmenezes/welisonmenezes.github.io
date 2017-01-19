@@ -1,0 +1,14 @@
+{
+  "name": "scroll",
+  "_cacheHeaders": {
+    "ETag": "\"232b8-1143-53d973882b740\"",
+    "Last-Modified": "Wed, 28 Sep 2016 20:29:41 GMT",
+    "Content-Length": "2061",
+    "Content-Type": "application/javascript"
+  },
+  "_release": "e-tag:232b8-114",
+  "main": "index.js",
+  "_source": "http://beta.kaus.com.br/welison/bower/scroll.min.js",
+  "_target": "*",
+  "_originalSource": "http://beta.kaus.com.br/welison/bower/scroll.min.js"
+}

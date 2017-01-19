@@ -1,0 +1,233 @@
+.header-content{
+	width: 100%;
+	max-width: 1860px;
+	margin: 0 auto;
+	padding: 25px 70px 0 70px;
+
+	@include wm-transition(all, 0.3s);
+
+	.i-menu, .top-logo{
+		cursor: pointer;
+		display: inline-block;
+		*display: inline;
+		vertical-align: middle;
+	}
+	.i-menu{
+		margin-right: 15px;
+	}
+}
+
+.top-logo{
+	img{
+		display: block;
+	}
+}
+
+.ul-social{
+	text-align: right;
+	width: 60px;
+	float: right;
+	margin-top: 7px;
+
+	li{
+		margin-right: 6px;
+
+		&.last{
+			margin-right: 0;
+		}
+	}
+	a{
+		&:hover, &:active{
+			.i-facebook{
+				background-position: sprite-position($icons, i-facebook-h);
+				@include sprite-dimensions($icons, i-facebook-h);
+			}
+			.i-linkedin{
+				background-position: sprite-position($icons, i-linkedin-h);
+				@include sprite-dimensions($icons, i-linkedin-h);
+			}
+		}
+	}
+}
+
+.menu-content{
+	padding: 25px 25px 0 0;
+	text-align: right;
+
+	.i-menu, .top-logo{
+		cursor: pointer;
+		display: inline-block;
+		*display: inline;
+		vertical-align: middle;
+	}
+	.top-logo{
+		margin-right: 15px;
+	}
+	.ul-menu{
+		padding-top: 70px;
+		margin-bottom: 45px;
+	}
+}
+
+.ul-menu{
+	font-size: 18px;
+	text-transform: uppercase;
+
+	a{
+		color: #9fb7df;
+
+		&:hover, &:active{
+			color: #fff;
+		}	
+	}
+	li{
+		margin-bottom: 18px;
+
+		&.last{
+			margin-bottom: 0;
+
+			a{
+				color: #feee64;
+
+				&:hover, &:active{
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+.figure-circle{
+	overflow: hidden;
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.5);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.5);
+	display: block;
+	margin: 0 auto;
+
+	@include wm-circle(300px);
+
+	img{
+		display: block;
+	}
+}
+
+.circle-chart{
+	max-width: 120px;
+	margin: 0 auto;
+
+	.timer{
+		font-family: 'FuturaStdLight';
+	}
+}
+
+.skill-chart{
+	text-align: center;
+
+	.label{
+		text-transform: uppercase;
+		font-size: 12px;
+		display: block;
+		font-family: 'FuturaStdBold';
+		height: 30px;
+		line-height: 30px;
+
+		&.two-lines{
+			line-height: normal;
+		}
+	}
+	.circle-chart{
+		margin-top: -15px;
+	}
+}
+
+.who-testimony{
+	span{
+		display: block;
+	}
+	.name{
+		font-size: 16px;
+		font-family: 'FuturaStdBold';
+		text-transform: uppercase;
+	}
+	.role{
+		color: #feee64;
+		font-size: 12px;
+	}
+}
+
+.testimony-box{
+	.figure-circle{
+		width: 120px;
+		height: 120px;
+		margin-bottom: 15px;
+	}
+	.who-testimony{
+		margin-bottom: 40px;
+	}
+	p{
+		font-size: 24px;
+		line-height: 32px;
+	}
+}
+
+.col-cases{
+	float: left;
+	width: 20%;
+}
+
+.case-box{
+	position: relative;
+	overflow: hidden;
+
+	figure{
+		img{
+			display: block;
+			width: 100%;
+		}
+	}
+	.hover{
+		background: #202b4f;
+		position: absolute;
+		top: 400px;
+		left: 0;
+		width: 100%;
+
+		.content{
+			padding: 10px 15px;
+			position: relative;
+		}
+	}
+}
+
+.foot-content{
+	> span{
+		display: block;
+
+		&.email{
+			font-size: 38px;
+			line-height: 38px;
+			font-family: 'FuturaStdLight';
+			margin-bottom: 20px;
+
+			a{
+				color: #fff;
+
+				&:hover, &:active{
+					text-decoration: underline;
+				}
+			}
+		}
+		&.phone{
+			font-size: 22px;
+			line-height: 22px;
+			color: #feee64;
+			font-family: 'FuturaStdBold';
+			margin-bottom: 45px;
+		}
+	}
+	.ul-social{
+		float: none;
+		margin: 0 auto;
+	}
+}

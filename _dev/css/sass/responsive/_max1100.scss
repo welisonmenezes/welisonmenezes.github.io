@@ -1,0 +1,12 @@
+.show-max1100{
+	display: none;
+}
+
+@media (max-width: 1100px){
+	.hide-max1100{
+		display: none;
+	}
+	.show-max1100{
+		display: block;
+	}
+}

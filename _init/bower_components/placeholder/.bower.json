@@ -1,0 +1,14 @@
+{
+  "name": "placeholder",
+  "_cacheHeaders": {
+    "ETag": "\"232b6-f11-53d9738737500\"",
+    "Last-Modified": "Wed, 28 Sep 2016 20:29:40 GMT",
+    "Content-Length": "1236",
+    "Content-Type": "application/javascript"
+  },
+  "_release": "e-tag:232b6-f11",
+  "main": "index.js",
+  "_source": "http://beta.kaus.com.br/welison/bower/jquery.html5-placeholder-shim.js",
+  "_target": "*",
+  "_originalSource": "http://beta.kaus.com.br/welison/bower/jquery.html5-placeholder-shim.js"
+}

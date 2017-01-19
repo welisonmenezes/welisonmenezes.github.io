@@ -1,0 +1,62 @@
+.slick-testimony-wrap{
+	max-width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.slick-testimony{
+	max-width: 620px;
+	margin: 0 auto;
+}
+.slick-testimony-item{
+	outline: none;
+}
+.slick-testimony-navigation{
+	width: 100%;
+	position: absolute;
+	top: 30px;
+
+	.btn-prev, .btn-next{
+		position: absolute;
+		top: 0;
+		z-index: 9;
+		cursor: pointer;
+	}
+	.btn-next{
+		right: 10px;
+	}
+	.btn-prev{
+		left: 10px;
+	}
+}
+
+
+
+.slick-skills{
+	max-width: 600px;
+	margin: 0 auto;
+}
+.slick-skills-item{
+	outline: none;
+}
+.slick-skills-navigation{
+	width: 100%;
+	padding-top: 30px;
+}
+
+
+
+.slick-cases{
+	margin: 0 auto;
+
+	.col-cases{
+		width: 100% !important;
+	}
+}
+.slick-cases-item{
+	outline: none;
+}
+.slick-cases-navigation{
+	width: 100%;
+	padding-top: 40px;
+	text-align: center;
+}

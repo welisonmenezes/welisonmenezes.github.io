@@ -1,0 +1,14 @@
+{
+  "name": "bootstrapGrid",
+  "_cacheHeaders": {
+    "ETag": "\"232b9-32d5-53d973891f980\"",
+    "Last-Modified": "Wed, 28 Sep 2016 20:29:42 GMT",
+    "Content-Length": "13013",
+    "Content-Type": "text/plain"
+  },
+  "_release": "e-tag:232b9-32d",
+  "main": "index.scss",
+  "_source": "http://beta.kaus.com.br/welison/bower/_bootstrapGrid.scss",
+  "_target": "*",
+  "_originalSource": "http://beta.kaus.com.br/welison/bower/_bootstrapGrid.scss"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "html5shiv",
+  "_cacheHeaders": {
+    "ETag": "\"232ba-985-53d9738a13bc0\"",
+    "Last-Modified": "Wed, 28 Sep 2016 20:29:43 GMT",
+    "Content-Length": "1257",
+    "Content-Type": "application/javascript"
+  },
+  "_release": "e-tag:232ba-985",
+  "main": "index.js",
+  "_source": "http://beta.kaus.com.br/welison/bower/html5shiv.js",
+  "_target": "*",
+  "_originalSource": "http://beta.kaus.com.br/welison/bower/html5shiv.js"
+}

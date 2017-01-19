@@ -1,0 +1,49 @@
+.icon{
+	display: block;
+	background-image: sprite-url($icons);
+
+	&.a-dark-blue-l{
+		background-position: sprite-position($icons, a-dark-blue-l);
+		@include sprite-dimensions($icons, a-dark-blue-l);
+	}
+	&.a-dark-blue-r{
+		background-position: sprite-position($icons, a-dark-blue-r);
+		@include sprite-dimensions($icons, a-dark-blue-r);
+	}
+	&.a-light-blue-l{
+		background-position: sprite-position($icons, a-light-blue-l);
+		@include sprite-dimensions($icons, a-light-blue-l);
+	}
+	&.a-light-blue-r{
+		background-position: sprite-position($icons, a-light-blue-r);
+		@include sprite-dimensions($icons, a-light-blue-r);
+	}
+	&.a-link{
+		background-position: sprite-position($icons, a-link);
+		@include sprite-dimensions($icons, a-link);
+	}
+	&.a-link-yellow{
+		background-position: sprite-position($icons, a-link-yellow);
+		@include sprite-dimensions($icons, a-link-yellow);
+	}
+	&.a-s-white-l{
+		background-position: sprite-position($icons, a-s-white-l);
+		@include sprite-dimensions($icons, a-s-white-l);
+	}
+	&.a-s-white-r{
+		background-position: sprite-position($icons, a-s-white-r);
+		@include sprite-dimensions($icons, a-s-white-r);
+	}
+	&.i-facebook{
+		background-position: sprite-position($icons, i-facebook);
+		@include sprite-dimensions($icons, i-facebook);
+	}
+	&.i-linkedin{
+		background-position: sprite-position($icons, i-linkedin);
+		@include sprite-dimensions($icons, i-linkedin);
+	}
+	&.i-menu{
+		background-position: sprite-position($icons, i-menu);
+		@include sprite-dimensions($icons, i-menu);
+	}
+}

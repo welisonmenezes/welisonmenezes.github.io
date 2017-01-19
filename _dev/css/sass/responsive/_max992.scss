@@ -1,0 +1,99 @@
+.show-992{
+	display: none;
+}
+.mobile{
+	display: none;
+}
+
+@media (max-width: 992px){
+	.hide-992{
+		display: none !important;
+	}
+	.show-992{
+		display: block;
+	}
+
+	.desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+
+	body, html{}
+
+
+	.btn-default{
+		height: 74px;
+    	line-height: 74px;
+    	font-size: 20px;
+	}
+
+
+	.text-banner{
+		h1{
+			font-size: 68px;
+			line-height: 70px;
+		}
+		h2{
+			font-size: 24px;
+    		line-height: 26px;
+		}
+	}
+
+	.text-cases{
+		h2{
+			font-size: 16px;
+		}
+		.action{
+			padding-top: 15px;
+		}
+	} 
+
+
+
+
+
+	.figure-circle{
+		width: 275px;
+		height: 275px;
+	}
+	
+	.testimony-box{
+		.figure-circle{
+			width: 100px;
+			height: 100px;
+		}
+	}
+
+	.col-cases{
+		width: 25%;
+	}
+
+	.foot-content{
+		> span{
+			&.email{
+				font-size: 36px;
+				line-height: 36px;
+			}
+		}
+	}
+
+
+
+
+	.sct-menu{
+		> .btn{
+			top: 30px;
+		}
+		.nav-main{
+			padding-top: 85px;
+		}
+	}
+
+	.sct-testimonials{
+		.slick-testimony{
+			max-width: 540px;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "json3",
+  "_cacheHeaders": {
+    "Last-Modified": "Sun, 22 Jun 2014 22:00:12 GMT",
+    "Content-Type": "application/javascript"
+  },
+  "main": "index.js",
+  "_source": "http://cdnjs.cloudflare.com/ajax/libs/json3/3.3.2/json3.min.js",
+  "_target": "*",
+  "_originalSource": "http://cdnjs.cloudflare.com/ajax/libs/json3/3.3.2/json3.min.js"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "normalize",
+  "_cacheHeaders": {
+    "ETag": "\"232b7-1f5f-53d973882b740\"",
+    "Last-Modified": "Wed, 28 Sep 2016 20:29:41 GMT",
+    "Content-Length": "2644",
+    "Content-Type": "text/css"
+  },
+  "_release": "e-tag:232b7-1f5",
+  "main": "index.css",
+  "_source": "http://beta.kaus.com.br/welison/bower/normalize.css",
+  "_target": "*",
+  "_originalSource": "http://beta.kaus.com.br/welison/bower/normalize.css"
+}

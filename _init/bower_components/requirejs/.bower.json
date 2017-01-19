@@ -1,0 +1,11 @@
+{
+  "name": "requirejs",
+  "_cacheHeaders": {
+    "Last-Modified": "Sat, 30 May 2015 09:30:49 GMT",
+    "Content-Type": "application/javascript"
+  },
+  "main": "index.js",
+  "_source": "https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.18/require.js",
+  "_target": "*",
+  "_originalSource": "https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.18/require.js"
+}

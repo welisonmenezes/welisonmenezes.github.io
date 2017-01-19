@@ -1,0 +1,11 @@
+{
+  "name": "respond",
+  "_cacheHeaders": {
+    "Last-Modified": "Fri, 15 Aug 2014 17:30:27 GMT",
+    "Content-Type": "application/javascript; charset=utf-8"
+  },
+  "main": "index.js",
+  "_source": "https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js",
+  "_target": "*",
+  "_originalSource": "https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"
+}

@@ -1,0 +1,79 @@
+@mixin wm-box-sizing(){
+	-webkit-box-sizing: border-box; 
+  	-moz-box-sizing: border-box;  
+  	box-sizing: border-box; 
+}
+
+@mixin wm-sytle-placeholder($color){
+	&::-webkit-input-placeholder {
+		color: $color;
+	}
+	&:-moz-placeholder {
+		color: $color;  
+	}
+	&::-moz-placeholder { 
+		color: $color;  
+	}
+	&:-ms-input-placeholder {  
+		color: $color;  
+	}
+}
+
+@mixin wm-rotate($deg){
+	-webkit-transform: rotate($deg);
+	-moz-transform: rotate($deg);
+	-ms-transform: rotate($deg);
+	-o-transform: rotate($deg);
+	transform: rotate($deg);
+}
+
+@mixin wm-transition($pos, $timer){
+	-webkit-transition: $pos $timer ease;
+	-moz-transition: $pos $timer ease;
+	-ms-transition: $pos $timer ease;
+	-o-transition: $pos $timer ease;
+	transition: $pos $timer ease;
+}
+
+@mixin wm-transition-transform($pos, $firstTimer){
+	-webkit-transition: $pos $firstTimer ease 0.3s, -webkit-transform 0.3s ease;
+	-moz-transition: $pos $firstTimer ease 0.3s, -moz-transform 0.3s ease;
+	-ms-transition: $pos $firstTimer ease 0.3s, -ms-transform 0.3s ease;
+	-o-transition: $pos $firstTimer ease 0.3s, -o-transform 0.3s ease;
+	transition: $pos $firstTimer ease 0.3s, -webkit-transform 0.3s ease;
+}
+
+@mixin wm-hide-backface(){
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+@mixin wm-circle($w){
+	border-radius: 50%;
+	width: $w;
+	height: $w; 
+}
+
+@mixin wm-opacity($int, $float){
+	-moz-opacity: $float;
+	-khtml-opacity: $float;
+	opacity: $float;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=$int);
+	filter:alpha(opacity=$int);
+}
+
+@mixin wm-radius($r){
+	-webkit-border-radius: $r;
+	-moz-border-radius: $r;
+	border-radius: $r;
+}
+
+@mixin wm-no-user-select(){
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
