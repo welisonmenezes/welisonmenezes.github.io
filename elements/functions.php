@@ -96,6 +96,12 @@ $data_skills = array(
 
 $data_testimonials = array(
 	array(
+		'avatar' => 'img/avatares/claudio.jpg',
+		'name' => 'Claudio Just',
+		'role' => 'Managing Partner/Start-IDP',
+		'testimony' => 'Welison é um profissional extremamente focado na execução e na entrega dos projetos. Super detalhista, teve excelente relação com o time de design da KAUS, um elo importante entre a criação e o desenvolvimento. Um grande profissional.'
+	),
+	array(
 		'avatar' => 'img/avatares/eduardo.jpg',
 		'name' => 'Eduardo Araujo',
 		'role' => 'Co-fundador e Diretor de Comunicação/aPública',

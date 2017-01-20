@@ -2934,8 +2934,10 @@ svg .icon {
 /* line 112, ../sass/_structs.scss */
 .sct-testimonials > .container {
   position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-/* line 115, ../sass/_structs.scss */
+/* line 117, ../sass/_structs.scss */
 .sct-testimonials .title-main {
   background-image: url(../img/r-title-blue.gif);
   margin-bottom: 90px;
@@ -2943,36 +2945,36 @@ svg .icon {
   font-size: 26px;
   line-height: 26px;
 }
-/* line 122, ../sass/_structs.scss */
+/* line 124, ../sass/_structs.scss */
 .sct-testimonials .title-main > span {
   background: #202b4f;
 }
-/* line 126, ../sass/_structs.scss */
+/* line 128, ../sass/_structs.scss */
 .sct-testimonials .testimony-box {
   max-width: 620px;
   margin: 0 auto;
 }
 
-/* line 132, ../sass/_structs.scss */
+/* line 134, ../sass/_structs.scss */
 .sct-cases {
   position: relative;
 }
-/* line 135, ../sass/_structs.scss */
+/* line 137, ../sass/_structs.scss */
 .sct-cases > .container {
   position: relative;
   width: 100%;
   padding: 90px 0;
 }
-/* line 140, ../sass/_structs.scss */
+/* line 142, ../sass/_structs.scss */
 .sct-cases .title-main {
   margin-bottom: 100px;
 }
-/* line 143, ../sass/_structs.scss */
+/* line 145, ../sass/_structs.scss */
 .sct-cases .row-cases {
   background: #eeeeee;
 }
 
-/* line 148, ../sass/_structs.scss */
+/* line 150, ../sass/_structs.scss */
 .sct-footer {
   border-top: 10px solid #9fb7df;
   background: #202b4f;
