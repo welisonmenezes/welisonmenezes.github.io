@@ -108,6 +108,12 @@ $data_testimonials = array(
 		'testimony' => 'Muito bom profissional, boa pessoa, correto com horários e prazos. Um programador atento aos problemas do projeto como um todo e sempre sinaliza a melhor forma de desenvolver funcionalidades. Um profissional que não me preocupo com a fidelidade do layout apresentado. Muita boa a relação em entre psd e frontend.'
 	),
 	array(
+		'avatar' => 'img/avatares/michel.jpg',
+		'name' => 'Michel Santos',
+		'role' => 'Designer Freelancer',
+		'testimony' => 'Um ótimo profissional, com soluções criativas e extremamente seguras. Praticamente um raio-x entre o layout e o front-end. E a melhor parte, tudo dentro do prazo! Parceiro indispensável em meus projetos.'
+	),
+	array(
 		'avatar' => 'img/avatares/luciano.jpg',
 		'name' => 'Luciano R. de Albuquerque',
 		'role' => 'Solutions Architect/YDreams Global',

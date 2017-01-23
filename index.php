@@ -37,7 +37,7 @@
 									Olá, sou um Desenvolvedor Web e Web Designer com mais de 6 anos de experiência, apaixonado pelo o que faço e pelo o que  produzo.
 								</p>
 								<p>
-									Minha filosofia de trabalho é: <strong>Se é para fazer que faça bem feito</strong>. Por isso sempre procuro as melhores soluçoes para realizar um ótimo trabalho.
+									Minha filosofia de trabalho é: <strong>Se é para fazer que faça bem feito</strong>. Por isso sempre procuro as melhores soluções para realizar um ótimo trabalho.
 								</p>
 								<p class="last">
 									Meu foco principal é o desenvolvimento web. No entanto possuo talento para criação de layouts e peças gráficas.
