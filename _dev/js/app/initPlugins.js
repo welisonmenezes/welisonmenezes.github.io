@@ -86,7 +86,10 @@ define(function(require){
 	var _initCircleChart = function()
 	{
 		$('.circle-chart').each(function(){
-			var t = $(this);
+			var t = $(this),
+			perc = parseInt(t.attr('data-percent'));
+
+			//console.log(perc);
 
 			t.circliful({
 			    animationStep : 2,
@@ -96,7 +99,8 @@ define(function(require){
 			    backgroundColor : '#8fa9d5',
 			    fontColor : '#202b4f',
 			    percentageTextSize : 32,
-			    animateInView : true
+			    //animateInView : true,
+			    percent: perc
 			});
 		});
 	};
