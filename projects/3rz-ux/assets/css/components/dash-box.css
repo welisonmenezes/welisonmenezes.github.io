@@ -1,0 +1,40 @@
+.dash-box {
+    display: block;
+}
+.dash-box:hover {
+    text-decoration: none;
+}
+
+.dash-box-header {
+    color: #00dadf;
+    margin-bottom: 1rem;
+}
+.dash-box-header .circle {
+    color: #fff;
+    background-color: #00dadf;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .5rem;
+}
+.dash-box-header .circle i {
+    font-size: 14px;
+}
+.dash-box-header h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.dash-box-body {
+    color: #646464;
+}
+.dash-box-body p {
+    margin-bottom: .5rem;
+}
+.dash-box-body .action {
+    color: #00dadf;
+}

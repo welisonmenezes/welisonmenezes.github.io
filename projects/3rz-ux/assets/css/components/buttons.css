@@ -1,0 +1,40 @@
+.btn {
+    outline: none !important;
+    box-shadow: none !important;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.btn:hover,
+.btn:focus,
+.btn-active {
+    border-color: transparent !important;
+    outline: none;
+}
+
+.btn-primary {
+    background-color: #04d5df;
+    border-color: transparent;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #04c4ce !important;
+}
+.btn-primary:active {
+    background-color: #0cafc6 !important;
+}
+
+.btn-info {
+    background-color: #009eea;
+    border-color: transparent;
+}
+.btn-info:hover,
+.btn-info:focus {
+    background-color: #0696db !important;
+}
+.btn-info:active {
+    background-color: #1488c0 !important;
+}
+
+.btn-lg {
+    padding: 1rem 1.75rem;
+}

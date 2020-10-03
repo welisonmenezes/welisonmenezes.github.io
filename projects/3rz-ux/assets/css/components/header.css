@@ -1,0 +1,30 @@
+header {
+    height: 60px;
+}
+
+header nav {
+    padding-top: 25px;
+}
+
+.top-menu li {
+    margin-left: 1.5rem;
+}
+.top-menu li:first-child {
+    margin-left: 0;
+}
+.top-menu li.active a {
+    color: #04d5df;
+}
+.top-menu a,
+.top-menu button {
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.box-logo {
+    padding-top: 15px;
+    display: block;
+    max-width: 105px;
+}

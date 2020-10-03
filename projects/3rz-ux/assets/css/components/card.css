@@ -1,0 +1,43 @@
+.card .card {
+    margin-bottom: 1.25rem;
+}
+.card .card:last-child {
+    margin-bottom: 0;
+}
+
+.card-header {
+    background-color: transparent;
+}
+.card-header h2 {
+    font-size: 1.25rem;
+    color: #00437f;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card-body {
+    display: block;
+}
+.card-body:hover {
+    text-decoration: none;
+}
+.card-body:focus {
+    outline: none;
+}
+.card-body.small-padding {
+    padding: .5rem 1rem;
+}
+
+.card-gray {
+    background-color: #e6e6e6;
+}
+
+.card-small .card-body {
+    padding: .5rem 1rem;
+}
+.card-small {
+    margin-bottom: 30px;
+}
+.card-small:last-child {
+    margin-bottom: 0;
+}

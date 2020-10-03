@@ -1,0 +1,14 @@
+.page-dashboard .card .card .card-body {
+    min-height: 175px;
+    position: relative;
+}
+.page-dashboard .card .card .card-body .action {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 1rem;
+}
+.page-dashboard .card.card-gray {
+    min-height: 462px;
+}

@@ -1,0 +1,50 @@
+.dash-info {
+    min-height: 75px;
+}
+.dash-info h3 {
+    color: #575757;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.dash-info-balance,
+.dash-info-currency {
+    color: #009eea;
+    font-weight: bold;
+}
+
+.dash-info-balance {
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.dash-info-currency {
+    font-size: 1.375rem;
+    line-height: 1.375rem;
+}
+
+.dash-info-profile {
+    color: #d836fb;
+    font-weight: bold;
+    font-size: 1.375rem;
+    line-height: 1.375rem;
+    text-transform: uppercase;
+}
+
+.dash-info-link {
+    text-align: right;
+}
+.dash-info-link a {
+    color: #024284;
+}
+
+.dash-info-action {
+    padding-top: 10px;
+}
+.dash-info-action  .btn {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
