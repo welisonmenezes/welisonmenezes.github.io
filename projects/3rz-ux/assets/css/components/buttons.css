@@ -38,3 +38,31 @@
 .btn-lg {
     padding: 1rem 1.75rem;
 }
+
+.btn-close {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.5s;
+    z-index: 9;
+}
+.btn-close:hover {
+    opacity: 1;
+    transform: rotate(-90deg);
+    transform-origin: center center;
+}
+.btn-close:before,
+.btn-close:after {
+    position: absolute;
+    left: 15px;
+    content: " ";
+    height: 33px;
+    width: 2px;
+    background-color: #fff;
+    top: 0;
+}
+.btn-close:before {
+    transform: rotate(45deg);
+}
+.btn-close:after {
+    transform: rotate(-45deg);
+}

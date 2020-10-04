@@ -1,0 +1,67 @@
+.lateral {
+    width: 25%;
+    background-color: #0f4188;
+    height: 100vh;
+    border-left: solid 3px #ff00ff;
+    position: fixed;
+    z-index: 99;
+    right: -100%;
+    top: 0;
+    padding: 20px;
+    transition: right 0.5s;
+}
+.lateral .btn-close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.overlay {
+    content: "";
+    display: none;
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 98;
+    opacity: .5;
+}
+
+.lateral-menu-opened .lateral {
+    right: 0;
+}
+.lateral-menu-opened .overlay {
+    display: block;
+}
+
+.lateral-header {
+    color: #fff;
+    margin-bottom: 45px;
+}
+.lateral-header .username {
+    font-size: 1.125rem;
+}
+.lateral-header .username i {
+    margin-right: 10px;
+}
+.lateral-header .email {
+    font-size: 0.875rem;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.lateral-menu {
+    margin-left: 35px;
+}
+.lateral-menu a {
+    color: #fff;
+}
+.lateral-menu li {
+    margin-bottom: .8rem;
+}
+.lateral-menu li i {
+    vertical-align: middle;
+    margin-left: .5rem;
+}

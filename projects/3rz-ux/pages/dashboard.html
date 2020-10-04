@@ -31,7 +31,7 @@
                                 <a href="#">Contato/Ajuda</a>
                             </li>
                             <li>
-                                <button type="button">
+                                <button type="button" onclick="OpenLateralMenu()">
                                     <i class="material-icons">person_outline</i>
                                 </button>
                             </li>
@@ -40,6 +40,32 @@
                 </div>
             </div>
         </header>
+
+        <aside class="lateral">
+            <button type="button" class="btn-close" onclick="CloseLateralMenu()"></button>
+            <div class="lateral-header">
+                <div class="username d-flex">
+                    <i class="material-icons">person_outline</i>
+                    Welison Menezes
+                </div>
+                <div class="email">welisonmenezes@transferoswiss.ch</div>
+            </div>
+            <ul class="lateral-menu">
+                <li>
+                    <a href="#">Seus Dados</a>
+                </li>
+                <li>
+                    <a href="#">Termos de Uso</a>
+                </li>
+                <li>
+                    <a href="#">
+                        Logout <i class="material-icons">east</i>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <div class="overlay" onclick="CloseLateralMenu()"></div>
+
         <main class="container d-flex justify-content-center align-items-center">
             <div class="row full-row justify-content-center">
 

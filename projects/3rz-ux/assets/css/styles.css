@@ -2,6 +2,7 @@
 @import "../vendors/bootstrap-4.5.2-dist/css/bootstrap.min.css";
 @import "./components/fonts.css";
 @import "./components/base.css";
+@import "./components/lateral.css";
 @import "./components/mixins.css";
 @import "./components/buttons.css";
 @import "./components/card.css";
