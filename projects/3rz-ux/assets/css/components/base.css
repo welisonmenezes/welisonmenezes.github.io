@@ -40,7 +40,7 @@ button {
 button:focus,
 button:hover,
 button:active {
-    border: none;
+    border-color: transparent;
     outline: none;
 }
 
@@ -125,5 +125,11 @@ main.container.d-flex > .full-row {
     }
     .show-992 {
         display: block !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .block-768 {
+        display: block;
     }
 }

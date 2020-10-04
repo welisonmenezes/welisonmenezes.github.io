@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3RZ Crypto</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+
+    <div id="root" class="page-internal">
+        <header class="container">
+            <div class="row">
+                <div class="col-md-2 col-4">
+                    <a href="../index.html" class="box-logo">
+                        <img src="../assets/img/3rz.png" alt="3RZ Crypto Branding">
+                    </a>
+                </div>
+                <div class="col-md-10 col-8">
+                    <nav>
+                        <ul class="top-menu d-flex justify-content-end">
+                            <li class="active hide-992">
+                                <a href="#">Dashboard</a>
+                            </li>
+                            <li class="hide-992">
+                                <a href="#">Histórico</a>
+                            </li>
+                            <li class="hide-992">
+                                <a href="#">Contato/Ajuda</a>
+                            </li>
+                            <li class="hide-992">
+                                <button type="button" onclick="OpenLateralMenu()">
+                                    <i class="material-icons">person_outline</i>
+                                </button>
+                            </li>
+                            <li class="show-992">
+                                <button type="button" onclick="OpenLateralMenu()">
+                                    <i class="material-icons">menu</i>
+                                </button>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <aside class="lateral">
+            <button type="button" class="btn-close" onclick="CloseLateralMenu()"></button>
+            <div class="lateral-header">
+                <div class="username d-flex">
+                    <i class="material-icons">person_outline</i>
+                    Welison Menezes
+                </div>
+                <div class="email">welisonmenezes@transferoswiss.ch</div>
+            </div>
+            <ul class="lateral-menu">
+                <li class="active show-992">
+                    <a href="#">Dashboard</a>
+                </li>
+                <li class="show-992">
+                    <a href="#">Histórico</a>
+                </li>
+                <li>
+                    <a href="#">Seus Dados</a>
+                </li>
+                <li class="show-992">
+                    <a href="#">Contato/Ajuda</a>
+                </li>
+                <li>
+                    <a href="#">Termos de Uso</a>
+                </li>
+                <li>
+                    <a href="#">
+                        Logout <i class="material-icons">east</i>
+                    </a>
+                </li>
+            </ul>
+            <div class="lateral-dash-info show-992">
+                <div class="dash-info">
+                    <h3>Balance</h3>
+                    <div class="dash-info-balance">
+                        50.000.000,00
+                    </div>
+                    <div class="dash-info-currency">
+                        BRZ
+                    </div>
+                </div>
+                <div class="dash-info">
+                    <h3>Profile</h3>
+                    <div class="dash-info-profile">
+                        Básico
+                    </div>
+                    <div class="dash-info-link">
+                        <a href="#">+ Info</a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <div class="overlay" onclick="CloseLateralMenu()"></div>
+
+        <main class="container d-flex justify-content-center align-items-center">
+            <div class="row full-row justify-content-center">
+                <div class="col-md-10 col-12">
+
+                    <div class="internal-header">
+                        <div class="title d-flex justify-content-between">
+                            <h1>Vender BRZ</h1>
+                            <a href="dashboard.html" class="btn-back">
+                                <i class="material-icons">west</i> Voltar
+                            </a>
+                        </div>
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="dashboard.html">Dashboard</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">Vender BRZ</li>
+                        </ul>
+                    </div>
+
+                    <div class="card card-gray">
+                        <div class="card-body">
+                            <div class="form-default">
+                                <fieldset>
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h2>Dados da Transação</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6 col-12 form-group">
+                                            <div class="field-info">
+                                                <span class="info">
+                                                    Nome: <b>Welison Menezes</b>
+                                                </span>
+                                                <span class="info">
+                                                    CPF: <b>123.456.789-00</b>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-12 form-group">
+                                            <div class="field-info has-link">
+                                                <span class="info">
+                                                    Taxa de Saque: <b class="block-768">37.00 BRL</b>
+                                                </span>
+                                                <a href="#">*Informações sobre taxas</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </fieldset>
+                                <fieldset>
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h2>Quanto deseja vender?</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6 col-12 form-group">
+                                            <label>Valor Debitado em BRZToken</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text">BRZ</span>
+                                                </div>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-12 form-group">
+                                            <label>Valor Líquido em Reais</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text">BRL</span>
+                                                </div>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </fieldset>
+
+                                <fieldset>
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h2>Seus dados para depósito</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6 col-12 form-group">
+                                            <label>Agência Bancária</label>
+                                            <select class="form-control">
+                                                <option></option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-6 col-12 form-group">
+                                            <label>Agência e Dígito Verificador</label>
+                                            <div class="input-group input-digit">
+                                                <input type="text" class="form-control">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6 col-12 form-group">
+                                            <label>Agência e Dígito Verificador</label>
+                                            <div class="input-group input-digit">
+                                                <input type="text" class="form-control">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-12 form-group form-action">
+                                            <button class="btn btn-primary btn-block">Sacar Reais</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12 text-center">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Li e concordo com os
+                                                    <a href="#">Termos do Uso</a>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="../assets/vendors/particles.js-master/particles.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script>InitParticlesJs("../assets/vendors/particles.js-master/particlesjs-config.json");</script>
+</body>
+
+</html>

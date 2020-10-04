@@ -33,6 +33,10 @@
     .page-home .top-menu li {
         margin-left: 1rem;
     }
+
+    .page-internal main.container {
+        padding: 0;
+    }
 }
 
 @media (max-width: 768px) and (max-height: 600px) {
