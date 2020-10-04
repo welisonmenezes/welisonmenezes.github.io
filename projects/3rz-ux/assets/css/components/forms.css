@@ -3,7 +3,7 @@
     text-transform: uppercase;
     color: #00437f;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 .form-default fieldset {
     margin-bottom: 1rem;
@@ -21,6 +21,7 @@
 }
 .form-default label {
     color: #5b5b5b;
+    margin-bottom: .25rem;
 }
 .form-default a {
     color: #009eea !important;
@@ -29,7 +30,18 @@
     max-width: 25%;
 }
 .form-default .form-action {
-    margin-top: 32px;
+    margin-top: 28px;
+}
+.form-default  .form-group {
+    margin-bottom: .5rem;
+}
+.form-default .row {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.form-default .row > div {
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .field-info {
@@ -47,11 +59,14 @@
     border-radius: .25rem;
     position: relative;
 }
-.field-info.has-link {
-    padding-right: 100px;
+.field-info span {
+    display: block;
+    margin-bottom: .25rem;
+}
+.field-info span:last-child {
+    margin-bottom: 0;
 }
 .field-info .info {
-    display: inline-block;
     vertical-align: middle;
     margin-right: 1rem;
 }
@@ -60,13 +75,7 @@
 }
 .field-info a {
     color: #009eea !important;
-    display: inline-block;
-    width: 100px;
-    text-align: right;
-    position: absolute;
-    right: 10px;
-    top: 5px;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     line-height: 0.75rem;
 }
 
