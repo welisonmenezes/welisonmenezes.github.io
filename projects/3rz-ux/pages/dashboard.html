@@ -13,26 +13,31 @@
     <div id="root" class="page-dashboard">
         <header class="container">
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-md-2 col-4">
                     <a href="../index.html" class="box-logo">
                         <img src="../assets/img/3rz.png" alt="3RZ Crypto Branding">
                     </a>
                 </div>
-                <div class="col-md-10">
+                <div class="col-md-10 col-8">
                     <nav>
                         <ul class="top-menu d-flex justify-content-end">
-                            <li class="active">
+                            <li class="active hide-992">
                                 <a href="#">Dashboard</a>
                             </li>
-                            <li>
+                            <li class="hide-992">
                                 <a href="#">Histórico</a>
                             </li>
-                            <li>
+                            <li class="hide-992">
                                 <a href="#">Contato/Ajuda</a>
                             </li>
-                            <li>
+                            <li class="hide-992">
                                 <button type="button" onclick="OpenLateralMenu()">
                                     <i class="material-icons">person_outline</i>
+                                </button>
+                            </li>
+                            <li class="show-992">
+                                <button type="button" onclick="OpenLateralMenu()">
+                                    <i class="material-icons">menu</i>
                                 </button>
                             </li>
                         </ul>
@@ -51,8 +56,17 @@
                 <div class="email">welisonmenezes@transferoswiss.ch</div>
             </div>
             <ul class="lateral-menu">
+                <li class="active show-992">
+                    <a href="#">Dashboard</a>
+                </li>
+                <li class="show-992">
+                    <a href="#">Histórico</a>
+                </li>
                 <li>
                     <a href="#">Seus Dados</a>
+                </li>
+                <li class="show-992">
+                    <a href="#">Contato/Ajuda</a>
                 </li>
                 <li>
                     <a href="#">Termos de Uso</a>
@@ -63,13 +77,33 @@
                     </a>
                 </li>
             </ul>
+            <div class="lateral-dash-info show-992">
+                <div class="dash-info">
+                    <h3>Balance</h3>
+                    <div class="dash-info-balance">
+                        50.000.000,00
+                    </div>
+                    <div class="dash-info-currency">
+                        BRZ
+                    </div>
+                </div>
+                <div class="dash-info">
+                    <h3>Profile</h3>
+                    <div class="dash-info-profile">
+                        Básico
+                    </div>
+                    <div class="dash-info-link">
+                        <a href="#">+ Info</a>
+                    </div>
+                </div>
+            </div>
         </aside>
         <div class="overlay" onclick="CloseLateralMenu()"></div>
 
         <main class="container d-flex justify-content-center align-items-center">
             <div class="row full-row justify-content-center">
 
-                <div class="col-md-4 col-xl-4">
+                <div class="col-lg-4 col-xl-4 col-6">
                     <div class="card card-gray">
                         <div class="card-header">
                             <h2>Venda</h2>
@@ -126,7 +160,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-xl-4">
+                <div class="col-lg-4 col-xl-4 col-6">
                     <div class="card card-gray">
                         <div class="card-header">
                             <h2>Compra</h2>
@@ -183,7 +217,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-xl-2">
+                <div class="col-lg-3 col-xl-2 hide-992">
                     
                     <div class="card card-small">
                         <div class="card-body">

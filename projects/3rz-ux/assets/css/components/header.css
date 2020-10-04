@@ -28,3 +28,10 @@ header nav {
     display: block;
     max-width: 105px;
 }
+
+
+@media (max-width: 768px) {
+    header nav {
+        padding-top: 20px;
+    }
+}

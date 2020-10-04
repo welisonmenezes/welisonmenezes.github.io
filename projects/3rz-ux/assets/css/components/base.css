@@ -3,6 +3,7 @@ body {
     width: 100%;
     height: 100%;
     background: #111;
+    overflow-x: hidden;
 }
 
 html {
@@ -58,6 +59,20 @@ h6 {
     padding: 0;
 }
 
+::-webkit-scrollbar {
+    height: 3px;
+    width: 3px;
+}
+::-webkit-scrollbar-track {
+    background: #ddd;
+}
+::-webkit-scrollbar-thumb {
+    background: #ff00ff;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #ff00ff;
+}
+
 :focus {
     border: none;
     outline: none;
@@ -97,4 +112,18 @@ main.container.d-flex > .full-row {
 
 .container.d-flex > .full-row {
     width: 100%;
+}
+
+
+.show-992 {
+    display: none !important;
+}
+
+@media (max-width: 992px) {
+    .hide-992 {
+        display: none !important;
+    }
+    .show-992 {
+        display: block !important;
+    }
 }

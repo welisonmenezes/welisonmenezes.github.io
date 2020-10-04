@@ -1,5 +1,6 @@
 .lateral {
     width: 25%;
+    min-width: 360px;
     background-color: #0f4188;
     height: 100vh;
     border-left: solid 3px #ff00ff;
@@ -42,6 +43,7 @@
 }
 .lateral-header .username {
     font-size: 1.125rem;
+    font-weight: bold;
 }
 .lateral-header .username i {
     margin-right: 10px;
@@ -64,4 +66,43 @@
 .lateral-menu li i {
     vertical-align: middle;
     margin-left: .5rem;
+}
+
+.lateral-dash-info {
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.lateral-dash-info .dash-info {
+    margin-bottom: 15px;
+}
+.lateral-dash-info .dash-info:last-child {
+    margin-bottom: 0;
+}
+.lateral-dash-info .dash-info h3 {
+    color: #fff;
+}
+.lateral-dash-info .dash-info-link {
+    text-align: left;
+}
+.lateral-dash-info .dash-info-link a {
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .lateral-header {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .lateral {
+        width: 80%;
+        min-width: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .lateral {
+        width: 90%;
+    }
 }
