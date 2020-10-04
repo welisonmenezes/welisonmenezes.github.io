@@ -84,3 +84,9 @@
         margin-top: 0;
     }
 }
+
+@media (max-width: 380px) {
+    .form-check-label.terms {
+        font-size: .8rem;
+    }
+}
