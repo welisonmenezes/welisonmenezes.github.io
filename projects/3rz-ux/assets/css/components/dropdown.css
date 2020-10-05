@@ -1,0 +1,48 @@
+.dropdown > button {
+    border: solid 1px #b1b1b1;
+    background-color: #fff;
+    color: #707070;
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+    padding: 0 26px 0 10px;
+    border-radius: 6px;
+    position: relative;
+    min-width: 130px;
+    text-align: left;
+}
+.dropdown > button::after {
+    content: "";
+    border: solid #b1b1b1;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    right: 10px;
+    top: 6px;
+}
+
+.dropdown-menu {
+    border: solid 1px #b1b1b1;
+    padding: 15px 0 0 0;
+    border-radius: 6px;
+    color: #b1b1b1;
+}
+.dropdown-menu label {
+    margin-bottom: 0;
+}
+.dropdown-menu ul {
+    margin-bottom: 0;
+}
+.dropdown-menu ul li {
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.dropdown-menu ul li:last-child {
+    margin-bottom: 0;
+    border-top: solid 1px #d4d0d0;
+    text-align: right;
+}

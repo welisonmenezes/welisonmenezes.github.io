@@ -54,7 +54,7 @@
     padding: .375rem .75rem;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1rem;
+    line-height: 1.2rem;
     color: #fff;
     background-color: #bdbdbd;
     background-clip: padding-box;
@@ -64,11 +64,9 @@
 }
 .field-info span {
     display: block;
-    margin-bottom: .25rem;
 }
 .field-info .d-inline-block {
     vertical-align: middle;
-    margin-bottom: 0;
 }
 .field-info span:last-child {
     margin-bottom: 0;

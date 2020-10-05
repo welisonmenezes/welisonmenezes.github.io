@@ -1,0 +1,78 @@
+.nice-radio {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #707070;
+    font-size: 14px;
+    min-height: 24px;
+    line-height: 24px;
+}
+.nice-radio.small {
+    padding-left: 25px;
+}
+
+.nice-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.nice-radio .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: solid 1px #d4d0d0;
+}
+.nice-radio.small .checkmark {
+    height: 14px;
+    width: 14px;
+    top: 4px;
+}
+
+.nice-radio:hover input ~ .checkmark {
+    background-color: #fff;
+}
+
+.nice-radio input:checked ~ .checkmark {
+    background-color: #fff;
+}
+
+.nice-radio .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.nice-radio input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.nice-radio .checkmark:after {
+    left: 4px;
+    top: 4px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #62d6dc;
+    
+}
+.nice-radio.small .checkmark:after {
+    left: 2px;
+    top: 2px;
+    width: 8px;
+    height: 8px;
+    border-width: 0px 2px 2px 0;
+}

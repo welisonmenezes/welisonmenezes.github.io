@@ -1,0 +1,65 @@
+.filter-bar {
+    background-color: #fff;
+    border-radius: .25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+}
+.filter-bar > h4 {
+    position: relative;
+    color: #707070;
+    font-size: 14px;
+    font-weight: normal;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-right: 2rem;
+}
+.filter-bar > h4 i {
+    font-size: .9rem;
+    margin-top: -4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.filter-bar > div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.filter-bar > div .dropdown {
+    margin-right: 1rem;
+}
+.filter-bar > div .dropdown:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .filter-bar {
+        display: block;
+    }
+    .filter-bar > h4 {
+        margin-bottom: 1rem;
+    }
+    .filter-bar > div {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 475px) {
+    .filter-bar > h4 {
+        margin-bottom: 10px;
+    }
+    .filter-bar > div {
+        display: block;
+    }
+    .filter-bar > div .dropdown {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .filter-bar > div .dropdown > button {
+        display: block;
+        width: 100%;
+    }
+}

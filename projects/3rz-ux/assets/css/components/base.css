@@ -125,6 +125,10 @@ main.container.d-flex.align-items-start > .full-row {
     margin-top: 7px;
 }
 
+.margin-bottom-1rem {
+    margin-bottom: 1rem;
+}
+
 .text-legal {
     font-size: .8rem;
     line-height: 1rem;

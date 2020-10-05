@@ -32,3 +32,9 @@ var UncopyToClipBoard = function(event) {
     var el = event.currentTarget;
     el.parentElement.classList.remove('copied');
 }
+
+DropdownMenuStopPropagation = function () {
+    $('.dropdown-menu .stop-propagation').on('click', function () {
+        event.stopPropagation();
+    });
+}
