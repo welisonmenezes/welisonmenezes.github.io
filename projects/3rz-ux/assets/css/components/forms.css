@@ -33,7 +33,7 @@
     margin-top: 28px;
 }
 .form-default  .form-group {
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
 }
 .form-default .row {
     margin-right: -5px;
@@ -63,6 +63,10 @@
     display: block;
     margin-bottom: .25rem;
 }
+.field-info .d-inline-block {
+    vertical-align: middle;
+    margin-bottom: 0;
+}
 .field-info span:last-child {
     margin-bottom: 0;
 }
@@ -77,11 +81,19 @@
     color: #009eea !important;
     font-size: 0.9rem;
     line-height: 0.75rem;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 9px;
+
 }
 
 @media (max-width: 768px) {
     .form-default .form-action {
         margin-top: 0;
+    }
+    .field-info a {
+        position: static;
     }
 }
 
