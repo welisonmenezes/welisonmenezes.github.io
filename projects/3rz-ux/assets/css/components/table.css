@@ -55,9 +55,10 @@ table.small-table {
 
 
 .label-status {
-    display: flex;
+    display: inline-block !important;
     color: #707070;
-    align-items: center;
+    position: relative;
+    padding-left: 15px;
 }
 .label-status::before {
     content: "";
@@ -67,6 +68,9 @@ table.small-table {
     border-radius: 100%;
     background-color: #707070;
     margin-right: 5px;
+    position: absolute;
+    left: 0;
+    top: 5px;
 }
 .label-status.approved {
     color: #93C91E;
