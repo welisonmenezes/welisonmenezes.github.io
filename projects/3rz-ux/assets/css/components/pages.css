@@ -16,6 +16,10 @@
     min-height: 462px;
 }
 
+.page-contato .accordion-wrap {
+    margin-top: 10px;
+}
+
 @media (max-width: 992px) {
     .page-dashboard .card-gray {
         margin-bottom: 30px;

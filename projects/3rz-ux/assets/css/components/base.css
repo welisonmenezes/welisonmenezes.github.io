@@ -73,11 +73,6 @@ h6 {
     background: #ff00ff;
 }
 
-:focus {
-    border: none;
-    outline: none;
-}
-
 #particles-js {
     width: 100%;
     height: 100%;
@@ -129,6 +124,10 @@ main.container.d-flex.align-items-start > .full-row {
     margin-bottom: 1rem;
 }
 
+.margin-bottom-2rem {
+    margin-bottom: 2rem;
+}
+
 .text-legal {
     font-size: .8rem;
     line-height: 1rem;
@@ -144,6 +143,21 @@ main.container.d-flex.align-items-start > .full-row {
     padding: 1rem;
     display: inline-block;
     border-radius: .3rem;
+}
+
+.nice-scrollbar {
+    overflow: auto;
+    width: 100%;
+}
+.nice-scrollbar::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+.nice-scrollbar::-webkit-scrollbar-track {
+    background: #d1d1d1;
+}
+.nice-scrollbar::-webkit-scrollbar-thumb {
+    background: #707070;
 }
 
 
