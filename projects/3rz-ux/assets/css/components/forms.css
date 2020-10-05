@@ -43,6 +43,9 @@
     padding-right: 10px;
     padding-left: 10px;
 }
+.form-default .fig-qr-code {
+    margin-top: 1rem;
+}
 
 .field-info {
     display: block;
@@ -100,6 +103,42 @@
 }
 .bank-info li:last-child {
     margin-bottom: 0;
+}
+
+.field-copy {
+    position: relative;
+    width: 100%;
+}
+.field-copy .form-control {
+    padding-right: 45px;
+    resize: none;
+    min-height: 38px;
+    line-height: 1rem;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.field-copy i {
+    color: #04d5df;
+}
+.field-copy i.icon-done {
+    display: none;
+}
+.field-copy.copied i.icon-done {
+    display: block;
+}
+.field-copy.copied i.icon-copy {
+    display: none;
+}
+.field-copy-icon {
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
 }
 
 @media (max-width: 768px) {

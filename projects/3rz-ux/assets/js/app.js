@@ -17,3 +17,18 @@ var OpenLateralMenu = function() {
 var CloseLateralMenu = function() {
     document.querySelector('body').classList.remove('lateral-menu-opened');
 }
+
+// copy to clipboard
+var CopyToClipBoard = function(event) {
+    var el = event.currentTarget;
+    el.select();
+    el.setSelectionRange(0, 99999);
+    document.execCommand('copy');
+    el.parentElement.classList.add('copied');
+}
+
+// remove done icon from copied element
+var UncopyToClipBoard = function(event) {
+    var el = event.currentTarget;
+    el.parentElement.classList.remove('copied');
+}

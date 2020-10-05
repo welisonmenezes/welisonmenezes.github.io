@@ -135,6 +135,13 @@ main.container.d-flex.align-items-start > .full-row {
     font-size: .9rem;
 }
 
+.fig-qr-code {
+    background-color: #fff;
+    padding: 1rem;
+    display: inline-block;
+    border-radius: .3rem;
+}
+
 
 .show-992 {
     display: none !important;
