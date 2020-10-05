@@ -27,6 +27,13 @@
     .page-dashboard main.container.d-flex > .full-row {
         margin-bottom: 0;
     }
+
+    .page-contato .card-gray:first-child {
+        margin-bottom: 2rem;
+    }
+    .page-contato .accordion-wrap {
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 768px) {

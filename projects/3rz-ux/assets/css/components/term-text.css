@@ -1,0 +1,23 @@
+.term-text {
+    background-color: #fff;
+}
+.term-text h5 {
+    margin-bottom: 1rem;
+    padding-top: .75rem;
+}
+.term-text p {
+    margin-bottom: .75rem;
+}
+
+.term-text-wrap {
+    max-height: 50vh;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0 .5rem;
+}
+
+@media (max-width: 768px) {
+    .term-text-wrap {
+        max-height: none;
+    }
+}

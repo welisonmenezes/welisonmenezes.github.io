@@ -21,7 +21,7 @@
                 <div class="col-md-10 col-8">
                     <nav>
                         <ul class="top-menu d-flex justify-content-end">
-                            <li class="active hide-992">
+                            <li class="hide-992">
                                 <a href="dashboard.html">Dashboard</a>
                             </li>
                             <li class="hide-992">
@@ -120,121 +120,119 @@
                     </div>
 
                     <div class="card card-gray">
-                        <div class="card-body">
-                            <div class="form-default">
-                                <fieldset>
+                        <div class="card-body form-default">
+                            <fieldset>
 
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <h2>Dados da Transação</h2>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2>Dados da Transação</h2>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12 col-12 form-group">
+                                        <div class="field-info">
+                                            <span class="info d-inline-block">
+                                                Nome: <b>Welison Menezes</b>
+                                            </span>
+                                            <span class="info d-inline-block">
+                                                CPF: <b>123.456.789-00</b>
+                                            </span>
                                         </div>
                                     </div>
+                                    <div class="col-md-12 col-12 form-group">
+                                        <div class="field-info d-inline-block has-link">
+                                            <span class="info">
+                                                Taxa de Saque: <b class="block-768">37.00 BRL</b>
+                                            </span>
+                                            <a href="#">*Informações sobre taxas</a>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                    <div class="row">
-                                        <div class="col-md-12 col-12 form-group">
-                                            <div class="field-info">
-                                                <span class="info d-inline-block">
-                                                    Nome: <b>Welison Menezes</b>
-                                                </span>
-                                                <span class="info d-inline-block">
-                                                    CPF: <b>123.456.789-00</b>
-                                                </span>
+                            </fieldset>
+
+                            <fieldset>
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2>Quanto deseja sacar?</h2>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 col-12 form-group">
+                                        <label>Valor Debitado em BRZToken</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">BRZ</span>
                                             </div>
+                                            <input type="text" class="form-control">
                                         </div>
-                                        <div class="col-md-12 col-12 form-group">
-                                            <div class="field-info d-inline-block has-link">
-                                                <span class="info">
-                                                    Taxa de Saque: <b class="block-768">37.00 BRL</b>
-                                                </span>
-                                                <a href="#">*Informações sobre taxas</a>
+                                    </div>
+                                    <div class="col-md-6 col-12 form-group">
+                                        <label>Valor Líquido em Reais</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">BRL</span>
                                             </div>
+                                            <input type="text" class="form-control">
                                         </div>
                                     </div>
+                                </div>
 
-                                </fieldset>
-                                <fieldset>
+                            </fieldset>
 
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <h2>Quanto deseja sacar?</h2>
+                            <fieldset>
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2>Seus dados para depósito</h2>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 col-12 form-group">
+                                        <label>Agência Bancária</label>
+                                        <select class="form-control">
+                                            <option></option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 col-12 form-group">
+                                        <label>Agência e Dígito Verificador</label>
+                                        <div class="input-group input-digit">
+                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control">
                                         </div>
                                     </div>
+                                </div>
 
-                                    <div class="row">
-                                        <div class="col-md-6 col-12 form-group">
-                                            <label>Valor Debitado em BRZToken</label>
-                                            <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <span class="input-group-text">BRZ</span>
-                                                </div>
-                                                <input type="text" class="form-control">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-12 form-group">
-                                            <label>Valor Líquido em Reais</label>
-                                            <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <span class="input-group-text">BRL</span>
-                                                </div>
-                                                <input type="text" class="form-control">
-                                            </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-12 form-group">
+                                        <label>Agência e Dígito Verificador</label>
+                                        <div class="input-group input-digit">
+                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control">
                                         </div>
                                     </div>
+                                    <div class="col-md-6 col-12 form-group form-action">
+                                        <button class="btn btn-primary btn-block">Sacar Reais</button>
+                                    </div>
+                                </div>
 
-                                </fieldset>
-
-                                <fieldset>
-
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <h2>Seus dados para depósito</h2>
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                            <label class="form-check-label terms" for="defaultCheck1">
+                                                Li e concordo com os
+                                                <a href="termos.html">Termos do Uso</a>
+                                            </label>
                                         </div>
                                     </div>
+                                </div>
 
-                                    <div class="row">
-                                        <div class="col-md-6 col-12 form-group">
-                                            <label>Agência Bancária</label>
-                                            <select class="form-control">
-                                                <option></option>
-                                            </select>
-                                        </div>
-                                        <div class="col-md-6 col-12 form-group">
-                                            <label>Agência e Dígito Verificador</label>
-                                            <div class="input-group input-digit">
-                                                <input type="text" class="form-control">
-                                                <input type="text" class="form-control">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-md-6 col-12 form-group">
-                                            <label>Agência e Dígito Verificador</label>
-                                            <div class="input-group input-digit">
-                                                <input type="text" class="form-control">
-                                                <input type="text" class="form-control">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-12 form-group form-action">
-                                            <button class="btn btn-primary btn-block">Sacar Reais</button>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-12 text-center">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                    id="defaultCheck1">
-                                                <label class="form-check-label terms" for="defaultCheck1">
-                                                    Li e concordo com os
-                                                    <a href="#">Termos do Uso</a>
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </fieldset>
-                            </div>
+                            </fieldset>
                         </div>
                     </div>
 
