@@ -125,6 +125,16 @@ main.container.d-flex.align-items-start > .full-row {
     margin-top: 7px;
 }
 
+.text-legal {
+    font-size: .8rem;
+    line-height: 1rem;
+    color: #646464;
+}
+
+.font-size-dot9rem {
+    font-size: .9rem;
+}
+
 
 .show-992 {
     display: none !important;
